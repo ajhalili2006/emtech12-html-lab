@@ -1,8 +1,11 @@
 {
-  "name": "emtech12-html-lab",
+  "name": "@andreijiroh-dev/emtech12-html-lab",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch index.ts"
+    "start": "npm run dev",
+    "dev": "tsx watch index.ts",
+    "deploy:prod": "wrangler pages deploy ./public --project-name emtech12-html-lab-ajh --branch main",
+    "deploy:preview": "wrangler pages deploy ./public  --project-name emtech12-html-lab-ajh"
   },
   "dependencies": {
     "@hono/node-server": "^1.13.8",
@@ -10,6 +13,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.11.17",
-    "tsx": "^4.7.1"
+    "tsx": "^4.7.1",
+    "wrangler": "^3.108.1"
   }
 }

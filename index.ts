@@ -6,7 +6,7 @@ const app = new Hono()
 
 // https://hono.dev/docs/getting-started/nodejs#serve-static-files
 app.use(serveStatic({
-  root: "./src"
+  root: "./public"
 }))
 
 const port = Number(process.env.PORT) || 3000
