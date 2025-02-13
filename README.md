@@ -5,9 +5,9 @@ involving building a single-page site promoting our senior high school strand fo
 in Grade 10 using plain HTML and CSS, applying the concepts of layouting from our lessons
 there.
 
-You can see the deployed site I built for this activity via Cloudflare Pages at
-<https://emtech-html.labs.andreijiroh.dev/>, with help from my activity partner
-for idea brainstorming.
+You can see the deployed site I built for this activity (deployed via Cloudflare Pages) at
+<https://emtech-html.labs.andreijiroh.dev>, with help from my activity partner for brainstorming
+ideas.
 
 ## Development
 
@@ -23,7 +23,8 @@ of `process.env.PORT` or the default `3000`.
 
 ## License
 
-MPL-2.0 for the original code unless otherwise specified, excluding third-party content (see credits below).
+MIT for the original code unless otherwise specified, excluding third-party content (see credits below).
+Note that TBD.
 
 ### Credits
 
