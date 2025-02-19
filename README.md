@@ -14,7 +14,7 @@ ideas.
 To ease the development of this single-page website lab on your own, I used
 [Hono](https://hono.dev) to run a simple server serving static assets at
 [`public`](./public/) directory without the need to set up Caddy or NGINX
-configurations ahead of the time.
+configurations ahead of the time. You might need to setup [Node.js](https://nodejs.org) on your machine first.
 
 1. Install npm dependencies with `npm install`
 2. Run hono-based local server for previews with `npm run start`
@@ -24,7 +24,7 @@ of `process.env.PORT` or the default `3000`.
 ## License
 
 MIT for the original code unless otherwise specified, excluding third-party content (see credits below).
-Note that TBD.
+Note that this project does not accept external contributions since it is a school project.
 
 ### Credits
 
